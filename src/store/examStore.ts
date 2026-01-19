@@ -167,7 +167,7 @@ export const useExamStore = create<ExamStore>((set, get) => ({
    * Nächste Frage
    */
   nextQuestion: () => {
-    const { currentQuestionIndex, questions, isExerciseMode } = get();
+    const { currentQuestionIndex, questions } = get();
     if (currentQuestionIndex < questions.length - 1) {
       set({ 
         currentQuestionIndex: currentQuestionIndex + 1,
