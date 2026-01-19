@@ -12,9 +12,11 @@ export function StartScreen() {
         <div className="card p-8">
           {/* Logo/Title */}
           <div className="text-center mb-8">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full mb-4" 
-                 style={{ backgroundColor: '#00D9B5' }}>
-              <BookOpen className="w-10 h-10" style={{ color: '#2B1B52' }} />
+            <div className="flex items-center justify-center mb-4">
+              <div className="flex items-center justify-center w-20 h-20 rounded-full" 
+                   style={{ backgroundColor: '#00D9B5' }}>
+                <BookOpen className="w-10 h-10" style={{ color: '#2B1B52' }} />
+              </div>
             </div>
             <h1 className="text-3xl font-bold mb-2">Eurex Trader Exam</h1>
             <p className="text-slate-300 text-sm">
